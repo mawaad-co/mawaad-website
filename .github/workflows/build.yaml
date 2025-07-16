@@ -19,7 +19,6 @@ jobs:
 
       - name: Add .env to app
         run: |
-          cd app
           echo "AWS_REGION={{ var.AWS_REGION }}" >> .env
           echo "SES_FROM_EMAIL={{ var.SES_FROM_EMAIL }}" >> .env
           echo "SES_TO_EMAIL={{ var.SES_TO_EMAIL }}" >> .env
