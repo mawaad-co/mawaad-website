@@ -323,7 +323,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
             <p className="text-xl text-muted-foreground">Ready to get started? Contact us today!</p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* <Card className="text-center">
               <CardHeader>
                 <Phone className="h-8 w-8 text-primary mx-auto mb-2" />
